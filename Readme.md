@@ -12,13 +12,15 @@
 - Java is one of the world’s most important and widely used computer languages.
 - Java is loaded with lots of features like Open Source, Simple, Secure, Portable, Object Oriented, Multithreaded, Interpreted and Distributed.
 - Java Basic Terminologies
-  - **JCP:** The Java Community Process is the process that formalizes and standardizes Java technologies. 
-  - **JSR:** The Java Specification Requests is used to introduce new technologies into the language. Not all JSR specifications are taken up by the language.  
+
+  - **JCP:** The Java Community Process is the process that formalizes and standardizes Java technologies.
+  - **JSR:** The Java Specification Requests is used to introduce new technologies into the language. Not all JSR specifications are taken up by the language.
   - **JDK:** The Java Development Kit is a complete Java development platform with JavaCompiler, JavaDocs and JavaDebugger
   - **JRE:** The Java Runtime Environment provides an environment where Java applications can run effectively.
   - **JVM:** The Java Virtual Machine (JVM) is responsible for supporting the execution of Java applications.
   - **JCL:** The Java Class Library is a set of standard libraries that is available to any application running on the JVM.
   - **Java EE:** The Java Enterprise Edition (Java EE) was created to extend the Java SE by adding a set of specifications that define capabilities commonly used by enterprise applications.
+
 ---
 
 ## History
@@ -32,6 +34,46 @@
   - After failing at interactive media, people at Sun sat together in a coffee shop to figure out what they have to do with Oak and decided rename it to **Java by Gosling after looking at the menu**.
   - In **1994**, a team of Java developers started writing **Web Runner, which was a clone of the internet browser Mosaic**. It was based on the Java programming language. The name Web Runner was a tribute to the Blade Runner movie. Web Runner's first public demonstration was given by **John Gage and James Gosling at the Technology Entertainment Design Conference in Monterey, California in 1995**. It was later renamed **Hot Java, it was officially announced in May the same year at the Sun World conference**.
   - **Hot Java was a modular, extensible web browser from Sun Microsystems implemented in Java**. It was the first browser to support **Java applets**, and was Sun's demonstration platform for the then-new technology.
+
+---
+
+## Architecture
+
+- System hardware interacts with executable software using Operating System (OS). OS is responsible for allocation and de-allocation of resource based on request from different software programs.
+- A Virtual Machine is a software implementation of a physical machine inside OS. Java was developed with the concept of **WORA (Write Once Run Anywhere)**, which runs on a VM.
+- The heart of Java programing language is JVM. The compiler compiles the Java file into a **.class** file and then that **.class** file is inputted into the JVM to load and executes the class file.
+- Below is the detailed overview of JVM Architecture
+
+  ![alt text][oop-pop]
+
+  [oop-pop]: 01-Images/5.png "JVM Architecture"
+
+  - **Class Loader Sub System:**
+    - This is used to load, link and initialize a class file when JVM refers to a class for the first time.
+      - Loading
+        - The class loader sub system reads the .class file and generate corresponding binary data in **method area**.
+        - There are three types of class loaders
+          - Bootstrap/Primordial Class Loader
+            - It is responsible to load core Java API classes (jdk/jre/lib/rt.jar)
+            - This is implemented in native languages like C, C++ and not in Java.
+          - Extension Class Loader
+            - Loads the classes available in the extension class path (jdk/jre/lib/ext)
+            - This is implemented in Java.
+          - Application/System Class Loader
+            - Loads the classes available in the class path.
+            - This is implemented in Java.
+      - Linking
+        - Performs verification, preparation and resolution
+      - Initialization
+        - This will initialized static variables and executes static blocks if defined
+        - The execution is from top to bottom and parent to child.
+    - This process kicks during runtime and not in compile time.
+    - Sub System used Delegation Algorithm to load a class.
+      - When a new class file is asked to be loaded then system will check if class is loaded. If not loaded then it will ask class sub system to load the class.
+      - Class loader sub system handovers the request of loading to Application -> Extension -> Bootstrap.
+      - If class is not available in Bootstrap it delegates request to Extension and then to Application.
+      - If class is not available in any loader then system will raise **ClassNotFoundException**
+      - Classes loaded in child will be visible in the parent i.e. classes loaded in Application are visible in Extension and Bootstrap.
 
 ---
 
