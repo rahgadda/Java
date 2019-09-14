@@ -45,7 +45,7 @@
 - Below is detailed overview of JVM Architecture
   ![alt text][oop-pop]
 
-  [oop-pop]: /01-Images/5.jpg "JVM Architecture"
+  [oop-pop]: 01-Images\5.png "JVM Architecture"
 
 ---
 
