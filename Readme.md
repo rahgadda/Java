@@ -2,10 +2,12 @@
 
 ## Table of Content
 
-- [Overview](#Overview)
-- [History](#History)
-- [Modules](#Modules)
-- [Appendix](#Appendix)
+- [Java 8](#java-8)
+  - [Table of Content](#table-of-content)
+  - [Overview](#overview)
+  - [History](#history)
+  - [Modules](#modules)
+  - [Appendix](#appendix)
 
 ## Overview
 
@@ -31,7 +33,7 @@
 ## Modules
 
 - This program details most important module of Core Java 8 features:
-  - Overview of OOPS Concepts
+  - [OOPS Concepts](03-Modules\01-opps.md)
   - Data Types, Variables, and Arrays
   - Operators
   - Control Statements
