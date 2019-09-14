@@ -58,4 +58,32 @@
 ## Installation
 - Download the latest version of java based on your operating system architecture from [Oracle jdk](https://www.oracle.com/technetwork/java/javase/downloads/index.html) .
 
+- Execute the Installer and please select the installation folder.
+
+    ![alt text][java_home]
+
+    [java_home]: 01-Images/7.jpg "Progress"
+- Continue with the installation for the subsequent steps.
+    
+    ![alt text][java_install]
+
+    [java_install]: 01-Images/8.jpg "Java Install"
+
+    ![alt text][java_complete]
+
+    [java_complete]: 01-Images/9.jpg "Installation Complete"
+- **Setting of Path for Java**
+    - Right-click on 'My Computer' and select 'Properties'.
+    - Click on the 'Environment variables' button under the 'Advanced' tab.
+    - alter the 'Path' variable so that it also contains the path to the Java executable
+        - In the case of our example ( See second point ) the java executable lies at 'C:\Program Files\Java\jdk1.8.0_221\bin' 
+    - confirm he installation by     opening 
+
+
+    
+
+
+
+
+
 ## Appendix
