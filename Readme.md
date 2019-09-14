@@ -46,7 +46,7 @@
 
   ![alt text][oop-pop]
 
-  [oop-pop]: 01-Images\5.png "JVM Architecture"
+  [oop-pop]: 01-Images/5.png "JVM Architecture"
 
   - **Class Loader Sub System:**
     - This is used to load, link and initialize a class file when JVM refers to a class for the first time.
