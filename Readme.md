@@ -77,26 +77,6 @@
 
 ---
 
-## Modules
-
-- This program details most important module of Core Java 8 features:
-  - [OOPS Concepts](03-Modules/01-opps.md)
-  - Data Types, Variables, and Arrays
-  - Operators
-  - Control Statements
-  - Class & Object
-  - Packages and Interfaces
-  - Exception Handling
-  - Annotations
-  - Generics
-  - Collections Framework
-  - I/O Operations & NIO
-  - Concurrency Utilities
-  - Regular Expressions
-  - Lambda Expressions
-  - Date & Time Functions
-
----
 ## Installation
 - Download the latest version of java based on your operating system architecture from [Oracle jdk](https://www.oracle.com/technetwork/java/javase/downloads/index.html) .
 
@@ -117,15 +97,37 @@
 - **Setting of Path for Java**
     - Right-click on 'My Computer' and select 'Properties'.
     - Click on the 'Environment variables' button under the 'Advanced' tab.
-    - alter the 'Path' variable so that it also contains the path to the Java executable
-        - In the case of our example ( See second point ) the java executable lies at 'C:\Program Files\Java\jdk1.8.0_221\bin' 
-    - confirm he installation by     opening 
+    - Alter the 'Path' variable so that it also contains the path to the Java executable
+        - In the case of our example ( See second point ) the java executable lies at `C:\Program Files\Java\jdk1.8.0_221\bin` 
+    - Confirm the installation by checking the java version in the command prompt
+      ```java
+      java -version
+      ```
+      ![alt text][Java_Version]
 
+      [Java_Version]: 01-Images/6.jpg "Java Version"
 
-    
+ ---
 
+## Modules
 
+- This program details most important module of Core Java 8 features:
+  - [OOPS Concepts](03-Modules/01-opps.md)
+  - Data Types, Variables, and Arrays
+  - Operators
+  - Control Statements
+  - Class & Object
+  - Packages and Interfaces
+  - Exception Handling
+  - Annotations
+  - Generics
+  - Collections Framework
+  - I/O Operations & NIO
+  - Concurrency Utilities
+  - Regular Expressions
+  - Lambda Expressions
+  - Date & Time Functions
 
-
+---
 
 ## Appendix
