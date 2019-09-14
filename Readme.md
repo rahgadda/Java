@@ -43,6 +43,7 @@
 - A Virtual Machine is a software implementation of a physical machine inside OS. Java was developed with the concept of **WORA (Write Once Run Anywhere)**, which runs on a VM.
 - The heart of Java programing language is JVM. The compiler compiles the Java file into a **.class** file and then that **.class** file is inputted into the JVM to load and executes the class file.
 - Below is detailed overview of JVM Architecture
+
   ![alt text][oop-pop]
 
   [oop-pop]: 01-Images\5.png "JVM Architecture"
