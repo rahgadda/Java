@@ -70,9 +70,10 @@ Below are the key concepts of Object Oriented Programing
 - **Abstraction:**
 
   - This is a process of hiding the implementation details from the user. In Java, abstraction is achieved using abstract classes and interfaces.
+  - This feature is used to hide design details.
 
 - **Encapsulation:**
 
   - This is a process of binding/wrapping code and data together into a single unit.
   - In encapsulation, a variables of a class will be hidden from other classes and can be accessed only through the methods of their current class.
-  - This feature is used of data hiding.
+  - This feature is used to hide implementation details.
