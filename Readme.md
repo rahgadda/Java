@@ -55,5 +55,7 @@
   - Date & Time Functions
 
 ---
+## Installation
+- Download the latest version of java based on your operating system architecture from [Oracle jdk](https://www.oracle.com/technetwork/java/javase/downloads/index.html) .
 
 ## Appendix
