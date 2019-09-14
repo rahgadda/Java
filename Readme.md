@@ -33,7 +33,7 @@
 ## Modules
 
 - This program details most important module of Core Java 8 features:
-  - [OOPS Concepts](03-Modules\01-opps.md)
+  - [OOPS Concepts](.\03-Modules\01-opps.md)
   - Data Types, Variables, and Arrays
   - Operators
   - Control Statements
