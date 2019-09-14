@@ -38,37 +38,43 @@ They are four pillars of the object oriented programming paradigm. They are
 ### Key terms in Object Oriented Programming
 
 1. #### Object
+   An object is a software bundle of related state and behavior. it means object is a self-contained component which consists of methods and properties to make a particular type of data useful. an object contains an address and takes up some space in memory. 
 
-    An object is a software bundle of related state and behavior. it means object is a self-contained component which consists of methods and properties to make a particular type of data useful. an object contains an address and takes up some space in memory. 
+   ![alt text][obj]
 
-![alt text][obj]
-
-[obj]: ../01-Images/3.jpg "OOP VS POP"
+   [obj]: ../01-Images/3.jpg "OOP VS POP"
 
 2. #### Class
 
-    A Class is the blueprint for creating objects. Class does not consume any space.
+   A Class is the blueprint for creatingobjects. Class does not consume any space.
 
 3. #### Inheritence
-        Object-oriented programming allows classes to inherit state and behavior from other classes. it helps with code reusability.
+        
+   Object-oriented programming allows classes to inherit state and behavior ith code  reusability.
 
-![alt text][Inheritence]
+   ![alt text][Inheritence]
 
-[Inheritence]: ../01-Images/4.jpg "inheritence"
+   [Inheritence]: ../01-Images/4.jpg "inheritence"
 
 4. #### Polymorphism
 
-        The word “poly” means many and “morphs” means forms, So it means many forms.Polymorphism allows us to perform a single action in different ways depending on the calling object. This can be achieved by method **overloading** and method **overriding**.
-    polymorphism in java is of two types:
+   The word “poly” means many and “morphs”means forms, So it means many forms.Polymorphism allows us to perform a single action in different ways depending on the calling object. This can be achieved by method **overloading** and method **overriding**.
+   - Method Overloading: When there are 
+   multiple functions with same name but 
+   different parameters then these unctions 
+   are said to be overloaded.
+   - Method Overriding: It is a feature hat 
+   allows a subclass or child class to 
+   provide a specific implementation of a 
+   method that is already provided by one f 
+   its super-classes or parent classes.
 
-    1. Compile time Polymorphism
-    1. Runtime Polymorphism
-
-- Method Overloading: When there are multiple functions with same name but different parameters then these functions are said to be overloaded
-- Method Overriding: It is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
-  
+   Polymorphism in java is of two types:
+   1. Compile time Polymorphism
+   2. Runtime Polymorphism <br /><br />
+    
 5. #### Abstraction
     Abstraction is a process of hiding the implementation details from the user. In Java, abstraction is achieved using abstract classes and interfaces.
 
-5. #### Encapsulation
+6. #### Encapsulation
     Binding (or wrapping) code and data together into a single unit are known as encapsulation. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
