@@ -37,6 +37,18 @@
 
 ---
 
+## Architecture
+
+- System hardware interacts with executable software using Operating System (OS). OS is responsible for allocation and de-allocation of resource based on request from different software programs.
+- A Virtual Machine is a software implementation of a physical machine inside OS. Java was developed with the concept of **WORA (Write Once Run Anywhere)**, which runs on a VM.
+- The heart of Java programing language is JVM. The compiler compiles the Java file into a **.class** file and then that **.class** file is inputted into the JVM to load and executes the class file.
+- Below is detailed overview of JVM Architecture
+  ![alt text][oop-pop]
+
+  [oop-pop]: /01-Images/5.jpg "JVM Architecture"
+
+---
+
 ## Modules
 
 - This program details most important module of Core Java 8 features:
