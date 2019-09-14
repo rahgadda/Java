@@ -11,7 +11,14 @@
 
 - Java is one of the world’s most important and widely used computer languages.
 - Java is loaded with lots of features like Open Source, Simple, Secure, Portable, Object Oriented, Multithreaded, Interpreted and Distributed.
-
+- Java Basic Terminologies
+  - **JCP:** The Java Community Process is the process that formalizes and standardizes Java technologies. 
+  - **JSR:** The Java Specification Requests is used to introduce new technologies into the language. Not all JSR specifications are taken up by the language.  
+  - **JDK:** The Java Development Kit is a complete Java development platform with JavaCompiler, JavaDocs and JavaDebugger
+  - **JRE:** The Java Runtime Environment provides an environment where Java applications can run effectively.
+  - **JVM:** The Java Virtual Machine (JVM) is responsible for supporting the execution of Java applications.
+  - **JCL:** The Java Class Library is a set of standard libraries that is available to any application running on the JVM.
+  - **Java EE:** The Java Enterprise Edition (Java EE) was created to extend the Java SE by adding a set of specifications that define capabilities commonly used by enterprise applications.
 ---
 
 ## History
