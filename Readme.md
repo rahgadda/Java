@@ -1,13 +1,10 @@
 # Java 8
 
 ## Table of Content
-
-- [Java 8](#java-8)
-  - [Table of Content](#table-of-content)
-  - [Overview](#overview)
-  - [History](#history)
-  - [Modules](#modules)
-  - [Appendix](#appendix)
+ - [Overview](#overview)
+ - [History](#history)
+ - [Modules](#modules)
+ - [Appendix](#appendix)
 
 ## Overview
 
