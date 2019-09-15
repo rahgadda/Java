@@ -63,9 +63,16 @@
             - Loads the classes available in the class path.
             - This is implemented in Java.
       - Linking
-        - Performs verification, preparation and resolution
+        - This process involves the below:
+          - Verification:
+            - Check if metadata of class file is structurally correct.
+            - JVM will check if class file is generated on a valid compiler using Byte Code Verifier.
+          - Preparation:
+            - In this phase static variables will be initialized with default values.
+          - Resolution:
+            - This will replace symbolic names of java program with memory location references from method area.
       - Initialization
-        - This will initialized static variables and executes static blocks if defined
+        - This will initialized static variables with actual assignment values and execute static blocks if defined
         - The execution is from top to bottom and parent to child.
     - This process kicks during runtime and not in compile time.
     - Sub System used Delegation Algorithm to load a class.
