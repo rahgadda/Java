@@ -106,9 +106,17 @@
       ![alt text][Java_Version]
 
       [Java_Version]: 01-Images/6.jpg "Java Version"
-
+    - Creating a First program in Java.
+      - Create a file name 'HelloWorld.java' using a Text editor
+      - Write the Below code in it.
+        ```java
+          public class HelloWorld {
+            public static void main(String[] args) throws Exception {
+                System.out.println("Hello Java");
+                }
+            }
+        ```  
  ---
-
 ## Modules
 
 - This program details most important module of Core Java 8 features:
