@@ -137,7 +137,7 @@
 
 - This program details most important module of Core Java 8 features:
   - [OOPS Concepts](03-Modules/01-oops.md)
-  - [Data Types, Variables, and Arrays](03-Modules\02-datatypes.md)
+  - [Data Types, Variables, and Arrays](03-Modules/02-datatypes.md)
   - Operators
   - Control Statements
   - Class & Object
