@@ -44,6 +44,7 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
     - Instance Variables
         - Instance variables are declared in a class, but outside a method, constructor or any block and are visible for all methods, constructors and block in the class.
         - Instance variables have default values and also values can be assigned during the declaration or within the constructor.
+        - There would only be one copy of each class variable per class, regardless of how many objects are created from it.
 
     - Class/Static Variables
         - Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.
@@ -54,8 +55,8 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
             import java.io.*;
             public class Employee {
             
-               // salary  variable is a private static          variable
-            private static double salary;
+               // salary  variable is a private static variable
+                private static double salary;
 
                // DEPARTMENT is a constant
                public static final String DEPARTMENT ="Development ";
