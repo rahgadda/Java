@@ -66,4 +66,18 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
                    System.out.println(DEPARTMENT +"average salary:" + salary);
                 }
             }
-```
+
+**Arrays**
+- Array is the data structure that stores fixed-size sequential collections of same type.
+- Declaration is done as follows
+    ```Java
+    int   a[]; //dataType arrayRefVar[];
+    int[] b;  //dataType[] arrayRefVar; **prefered way**
+    ``` 
+- arrays can be created by using new keyword as follows.
+    ```Java
+        //dataType[] arrayRefVar = new dataType[arraySize];
+        double[] myList = new double[10];
+
+        animal[] a = new animal[5];
+    ```
