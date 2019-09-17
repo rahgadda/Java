@@ -8,9 +8,13 @@
 - Java has eight primitive data types.They are **byte**,**short**,**int**,**long**,**char**, **float**,**double** and **boolean**.
 
 ---
-| Data Type |                         contents                        |  size  | Default Value |
+| Data Type |                         Contents                        |  Size  | Default Value |
 |:---------:|:-------------------------------------------------------:|:------:|:-------------:|
 |    Byte   |    Signed two's complement integer from -128 to 127     |  8-bit |       0       |
 |   short   |  signed two's complement integer from -2^15 to 2^15 -1  | 16-bit |       0       |
 |    int    |   signed two's complement integer from -2^31 to 2^31-1  | 32-bit |       0       |
 |    long   |   signed two's complement integer from -2^63 to 2^63-1  | 64-bit |       0L      |
+|  float    |          single precision floating point number           | 32-bit |  0.0f |
+|  double |           double precision floating point number          | 64-bit |  0.0d |
+| boolean |             stores boolean value true or false            |  1-bit | false |
+|   char  | Stores 16-bit unicode character from '\u0000' to '\ffff'  | 16-bit |   -   |
