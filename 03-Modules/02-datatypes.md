@@ -64,5 +64,5 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
                    salary = 1000;
                    System.out.println(DEPARTMENT +"average salary:" + salary);
                 }
-}
+            }
 ```
