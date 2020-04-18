@@ -51,22 +51,22 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
         - There would only be one copy of each class variable per class, regardless of how many objects are created from it.
         - Static variables can be accessed by calling with the class name ClassName.VariableName.
         
-        ```java
-            import java.io.*;
-            public class Employee {
-            
-               // salary  variable is a private static variable
-               private static double salary;
+            ```java
+                import java.io.*;
+                public class Employee {
+                
+                   // salary  variable is a     private static variable
+                   private static double salary;
 
-               // DEPARTMENT is a constant
-               public static final String DEPARTMENT ="Development ";
+                   // DEPARTMENT is a constant
+                   public static final String   DEPARTMENT ="Development ";
 
-               public static void main(String args[]) {
-                   salary = 1000;
-                   System.out.println(DEPARTMENT +"average salary:" + salary);
-               }
-            }
-        ```
+                   public static void main(String   args[]) {
+                       salary = 1000;
+                       System.out.println   (DEPARTMENT +"average  salary:" + salary);
+                   }
+                }
+            ```
 
 **Arrays**
 - Array is the data structure that stores fixed-size sequential collections of same type.
@@ -75,7 +75,7 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
     int   a[]; //dataType arrayRefVar[];
     int[] b;  //dataType[] arrayRefVar; **prefered way**
     ``` 
-- arrays can be created by using new keyword as follows.
+- Arrays can be created by using new keyword as follows.
     ```java
         //dataType[] arrayRefVar = new dataType[arraySize];
         double[] myList = new double[10];

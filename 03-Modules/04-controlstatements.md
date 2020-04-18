@@ -6,7 +6,7 @@
     - Iteration
         - Iteration Statements are useful for repetitive execution.
     - Jump
-        - Jump statements are useful to execute proram in non linear fashion.
+        - Jump statements are useful to execute programs in non linear fashion.
 
 **Selection Statements**
 - if-else
@@ -15,14 +15,14 @@
     - if statement can be followed by an optional **else** block.
     - The statements inside else is executed only of the boolean expression is false.
     - Java also supports **else if** which is used in the case of nested statements.
-    - ```Java
-        if (time < 10) {
-            System.out.println("Good morning.");
-        } else if (time < 20) {
-            System.out.println("Good day.");
-        } else {
-            System.out.println("Good evening.");
-        }
+        ```java
+            if (time < 10) {
+                System.out.println("Good morning.");
+            } else if (time < 20) {
+                System.out.println("Good day.");
+            } else {
+                System.out.println("Good evening.");
+            }
         ```
 
 - switch
