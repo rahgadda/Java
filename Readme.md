@@ -151,7 +151,8 @@
   - Regular Expressions
   - Lambda Expressions
   - Date & Time Functions
-- Advanced concepts of 
+- Advanced concepts of
+  - JUnit
   - Servlet
   - JAXB
   - Jackson
