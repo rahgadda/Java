@@ -20,7 +20,7 @@
 | boolean |             stores boolean value true or false            |  1-bit | false |
 |   char  | Stores 16-bit unicode character from '\u0000' to '\ffff'  | 16-bit |   -   |
 
-- Reference variables are created using the defined constructors of the class.These variables are declared to be of a specific type and that cannot be changed and that type is called refernce data type.
+- Reference variables are created using the defined constructors of the class.These variables are declared to be of a specific type and that cannot be changed and that type is called reference data type.
 - class objects and various types of array variables come under reference data type.
 
 **Variables**
@@ -29,7 +29,7 @@
 
 Example for declaration and initialization  the variable is as follows
 
-```Java
+```java
 int x, y;         // Declares two integers x,y.
 int x = 10, y = 10;  // Example of initialization
 byte B = 22;         // initializes a byte type variable B.
@@ -38,7 +38,7 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
 ```
 - There are three kind of variable  in Java . They are 
     - Local Variables
-        - Local variables are declared in methods, constructors, or blocks and are only vissible inside them.
+        - Local variables are declared in methods, constructors, or blocks and are only visible inside them.
         - There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
 
     - Instance Variables
@@ -51,31 +51,32 @@ char a = 'a';        // the char variable a iis initialized with value 'a'
         - There would only be one copy of each class variable per class, regardless of how many objects are created from it.
         - Static variables can be accessed by calling with the class name ClassName.VariableName.
         
-        ```Java
+        ```java
             import java.io.*;
             public class Employee {
             
                // salary  variable is a private static variable
-                private static double salary;
+               private static double salary;
 
                // DEPARTMENT is a constant
                public static final String DEPARTMENT ="Development ";
 
-                public static void main(String args[]) {
+               public static void main(String args[]) {
                    salary = 1000;
                    System.out.println(DEPARTMENT +"average salary:" + salary);
-                }
+               }
             }
+        ```
 
 **Arrays**
 - Array is the data structure that stores fixed-size sequential collections of same type.
 - Declaration is done as follows
-    ```Java
+    ```java
     int   a[]; //dataType arrayRefVar[];
     int[] b;  //dataType[] arrayRefVar; **prefered way**
     ``` 
 - arrays can be created by using new keyword as follows.
-    ```Java
+    ```java
         //dataType[] arrayRefVar = new dataType[arraySize];
         double[] myList = new double[10];
 
