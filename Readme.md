@@ -153,6 +153,7 @@
   - Date & Time Functions
 - Advanced concepts of
   - JUnit
+  - Logging
   - Servlet
   - JAXB
   - Jackson
@@ -164,3 +165,5 @@
 ---
 
 ## Appendix
+- References
+  - [Java 8 Complete Reference](02-Books/Java 8 The Complete Reference Ninth Edition.pdf)
