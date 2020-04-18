@@ -1,4 +1,4 @@
-# Java 8
+# Java
 
 ## Table of Content
 
