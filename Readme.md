@@ -135,22 +135,30 @@
 
 ## Modules
 
-- This program details most important module of Core Java 8 features:
+- This program details most important module of Core Java features:
   - [OOPS Concepts](03-Modules/01-oops.md)
   - [Data Types, Variables, and Arrays](03-Modules/02-datatypes.md)
-  - Operators
-  - Control Statements
+  - [Operators](03-Modules/03-operators.md)
+  - [Control Statements](03-Modules/04-controlstatements.md)
   - Class & Object
   - Packages and Interfaces
   - Exception Handling
   - Annotations
   - Generics
-  - Collections Framework
+  - [Collections Framework](03-Modules/10-collections)
   - I/O Operations & NIO
   - Concurrency Utilities
   - Regular Expressions
   - Lambda Expressions
   - Date & Time Functions
+- Advanced concepts of 
+  - Servlet
+  - JAXB
+  - Jackson
+  - CDI
+  - JPA
+  - Jax-RS
+  - Vert.x
 
 ---
 
