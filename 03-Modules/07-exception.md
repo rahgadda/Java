@@ -139,3 +139,38 @@
         }
     }
     ```
+  - Precise Rethrow:
+    - This is also an additional feature added in Java 7. 
+    - If there are multiple exception codes with similar catch execution like above,java allows to catch these exceptions using type Exception.
+    - Compiler at runtime can determine the  exception type.
+    ```java
+    package sample;
+
+    class StartException extends Exception {
+        public StartException (){
+            System.out.println("Entered into StartException");
+        }
+    }
+
+    class EndException extends Exception {
+        public EndException (){
+            System.out.println("Entered into EndException");
+        }
+    }
+
+    class Testing {
+        public static void main (final String args[]){
+            boolean start =true;
+            try{
+                System.out.println("Entered into Sample Code");
+                if(start){
+                    throw new StartException();
+                }else{
+                    throw new EndException();
+                }
+            }catch(Exception e){
+                e.printStackTrace();
+            }     
+        }
+    }
+    ```
