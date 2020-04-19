@@ -12,9 +12,9 @@
     - These are errors created during execution of code by JVM like `StackOverflowError`. These vary from environment and are not directly dependent on user inputs like Unchecked exceptions.
 
   ![](../01-Images/10-ExceptionHandling.png)
-- Java exception handling is managed by five keywords `try`, `catch`, `finally` , `throw` ,`throws`. Below are different exception handling scenarios.
+- Java exception handling is managed by five keywords `try`, `catch`, `finally` , `throw`  and `throws`. Below are different exception handling scenarios.
   - Basic: 
-    - This example illustrates basic use of `try`, `catch` and `finally`
+    - This example illustrates basic use of `try`, `catch`, `finally` , `throw`  and `throws`.
     ```java
     // Code without exception handling
     class Testing {
@@ -26,6 +26,7 @@
     ```java
     class Testing {
         public static void main(final String args[]) {
+            // Unchecked Exception
             try {
                 FileInputStream file = new FileInputStream("");
                 byte x = (byte) file.read();
@@ -53,5 +54,88 @@
         }
     }
     ```
+    - We use `throws` keyword to indicate exception handling will be done by the calling class.
     ```java
+    class Testing {
+        // Calling object should handle IOException. In this case JVM will handle it.
+        public static void main(final String args[]) throws IOException{
+            FileInputStream file = new FileInputStream("");
+            byte x = (byte) file.read();
+        }
+    }
+    ```
+    - We use `throw` keyword raise an exception.
+    ```java
+    class Testing {
+        public static void main (final String args[]){
+            System.out.println("Entered into Sample Code");
+            throw new ArithmeticException();
+        }
+    }
+    ```
+  - Userdefined:
+    - Programer can create implementation specific exceptions to indicate specific root causes.
+    ```java
+    class StartException extends Exception {
+        public StartException (){
+            System.out.println("Entered into StartException");
+        }
+    }
+
+    class EndException extends Exception {
+        public EndException (){
+            System.out.println("Entered into EndException");
+        }
+    }
+
+    class Testing {
+        public static void main (final String args[]){
+            boolean start =true;
+            try{
+                System.out.println("Entered into Sample Code");
+                if(start){
+                    throw new StartException();
+                }else{
+                    throw new EndException();
+                }
+            }catch(StartException e){
+                e.printStackTrace();
+            }catch(EndException e){
+                e.printStackTrace();
+            }       
+        }
+    }
+    ```
+  - Multi Catch:
+    - There are two approaches to support multiple catch blocks. One approach is given above and from Java 7 an additional support is added as given below.
+    ```java
+    package sample;
+
+    class StartException extends Exception {
+        public StartException (){
+            System.out.println("Entered into StartException");
+        }
+    }
+
+    class EndException extends Exception {
+        public EndException (){
+            System.out.println("Entered into EndException");
+        }
+    }
+
+    class Testing {
+        public static void main (final String args[]){
+            boolean start =false;
+            try{
+                System.out.println("Entered into Sample Code");
+                if(start){
+                    throw new StartException();
+                }else{
+                    throw new EndException();
+                }
+            }catch(StartException | EndException e){
+                e.printStackTrace();
+            }     
+        }
+    }
     ```

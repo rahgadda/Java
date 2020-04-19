@@ -142,7 +142,7 @@
   - [Control Statements](03-Modules/04-controlstatements.md)
   - Class & Object
   - Packages and Interfaces
-  - Exception Handling
+  - [Exception Handling](03-Modules/07-exception.md)
   - Annotations
   - Generics
   - [Collections Framework](03-Modules/10-collections)
@@ -160,10 +160,10 @@
   - CDI
   - JPA
   - Jax-RS
-  - Vert.x
+  - Reactive Programing
 
 ---
 
 ## Appendix
 - References
-  - [Java 8 Complete Reference](02-Books/Java 8 The Complete Reference Ninth Edition.pdf)
+  - [Java 8 Complete Reference](02-Books/Java8TheCompleteReferenceNinthEdition.pdf)
