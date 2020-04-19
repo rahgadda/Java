@@ -30,6 +30,7 @@
             try {
                 FileInputStream file = new FileInputStream("");
                 byte x = (byte) file.read();
+                file.close();
             } catch (IOException e) {
                 System.out.println("Invalid File");
                 e.printStackTrace();
@@ -70,6 +71,25 @@
         public static void main (final String args[]){
             System.out.println("Entered into Sample Code");
             throw new ArithmeticException();
+        }
+    }
+    ```
+  - Try with Resources:
+    - During java programming, developers face code snippets that requires resources to be closed at end of try catch block. 
+    - A new syntax has been introduced in Java 7 to automatically close the resource after execution. This eliminates use of finally block.
+    ```java
+    import java.io.FileInputStream;
+    import java.io.IOException;
+
+    class Testing {
+        public static void main(final String args[]) {
+            // Unchecked Exception
+            try (FileInputStream file = new FileInputStream("")){
+                byte x = (byte) file.read();
+            } catch (IOException e) {
+                System.out.println("Invalid File");
+                e.printStackTrace();
+            }
         }
     }
     ```
