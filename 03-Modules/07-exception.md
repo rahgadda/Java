@@ -11,7 +11,7 @@
   - Error:
     - These are errors created during execution of code by JVM like `StackOverflowError`. These vary from environment and are not directly dependent on user inputs like Unchecked exceptions.
 
-![](../01-Images/10-ExceptionHandling.png)
+  ![](../01-Images/10-ExceptionHandling.png)
 - Java exception handling is managed by five keywords `try`, `catch`, `finally` , `throw` ,`throws`. Below are different exception handling scenarios.
   - Basic: 
     - This example illustrates basic use of `try`, `catch` and `finally`
@@ -32,6 +32,8 @@
             } catch (IOException e) {
                 System.out.println("Invalid File");
                 e.printStackTrace();
+            } finally {
+                System.out.println("Will be executed every time");
             }
         }
     }
@@ -45,6 +47,8 @@
             }catch(ArithmeticException e){
                 System.out.println("Invalid expression");
                 e.printStackTrace();
+            } finally {
+                System.out.println("Will be executed every time");
             }
         }
     }
