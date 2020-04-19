@@ -158,6 +158,7 @@
   - JAXB
   - Jackson
   - CDI
+  - Universal Connection Pooling
   - JPA
   - Jax-RS
   - Reactive Programing
