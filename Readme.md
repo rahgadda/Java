@@ -154,7 +154,7 @@
 - Advanced concepts of
   - JUnit
   - Logging
-  - Servlet
+  - [Servlet](03-Modules/18-servlet.md)
   - JAXB
   - Jackson
   - Bean Validation

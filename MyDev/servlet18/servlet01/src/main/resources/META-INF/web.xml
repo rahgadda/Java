@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>main.java.org.mydev.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+</web-app>
