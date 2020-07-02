@@ -157,6 +157,7 @@
   - Servlet
   - JAXB
   - Jackson
+  - Bean Validation
   - CDI
   - Universal Connection Pooling
   - JPA
