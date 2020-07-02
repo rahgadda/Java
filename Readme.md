@@ -145,7 +145,7 @@
   - [Exception Handling](03-Modules/07-exception.md)
   - Annotations
   - Generics
-  - [Collections Framework](03-Modules/10-collections)
+  - [Collections Framework](03-Modules/10-collections.md)
   - I/O Operations & NIO
   - Concurrency Utilities
   - Regular Expressions
