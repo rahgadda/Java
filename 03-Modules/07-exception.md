@@ -1,14 +1,14 @@
 ## Exception Handling
 
-**Overview**
+### Overview
 - An exception is disruption of intended flow of the program. When exception occurs system will terminate the program and display stack track of the cause of the error.
 - Programmer can control this behavior using exceptional handling. All exceptions are child classes of *Throwable* class.
 - Exceptions are categorized into three types
-  - Checked:
+  - **Checked:**
     - These are identified by complier during compilation process and exception handling should be addressed by the programmers during creation of the code. Example `FileNotFoundException`.
-  - Unchecked:
+  - **Unchecked:**
     - These cannot be identified by complier during compilation process and created only at runtime based on input provided. Example `ArithmeticException`, `ArrayIndexOutOfBoundsException`.
-  - Error:
+  - **Error:**
     - These are errors created during execution of code by JVM like `StackOverflowError`. These vary from environment and are not directly dependent on user inputs like Unchecked exceptions.
 
   ![](../01-Images/10-ExceptionHandling.png)
@@ -162,7 +162,7 @@
   - Precise Rethrow:
     - This is also an additional feature added in Java 7. 
     - If there are multiple exception codes with similar catch execution like above,java allows to catch these exceptions using type Exception.
-    - Compiler at runtime can determine the  exception type.
+    - Compiler at runtime can determine the exception type.
     ```java
     package sample;
 

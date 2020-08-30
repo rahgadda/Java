@@ -1,4 +1,5 @@
 ## Control Statements
+
 - Control Statements are to used to advance in the flow of execution and branch based on the flow of the program.
 - Control statement can be classified in 3 categories.
     - Selection
@@ -8,7 +9,7 @@
     - Jump
         - Jump statements are useful to execute programs in non linear fashion.
 
-**Selection Statements**
+### Selection Statements
 - if-else
     - An if statement consists of a boolean expression followed by one or more statements.
     - The statements inside a if block are executed only of the boolean expression is true.
@@ -27,4 +28,4 @@
 
 - switch
 
-**Iteration** 
+## Iteration
