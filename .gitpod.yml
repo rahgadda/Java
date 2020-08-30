@@ -1,7 +1,0 @@
-ports:
-  - port: 8080
-
-vscode:
-  extensions:
-    - redhat.vscode-quarkus@1.3.0:KtWM54JH8yOhDtJgK4PJ5g==
-    - vscjava.vscode-maven@0.21.2:tFEkt2FqLujaNTLU5AmRiQ==
